@@ -3,12 +3,12 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/SavioReis/aemp-downloads/releases"><img alt="Versão" src="https://img.shields.io/badge/vers%C3%A3o-v33-2F6BFF?style=for-the-badge"></a>
-  <img alt="Protocolo" src="https://img.shields.io/badge/protocolo-32-101B35?style=for-the-badge">
+  <a href="https://github.com/SavioReis/AE-MP/releases/latest"><img alt="Versão" src="https://img.shields.io/badge/vers%C3%A3o-1.0.0-2F6BFF?style=for-the-badge"></a>
+  <img alt="Protocolo" src="https://img.shields.io/badge/protocolo-33-101B35?style=for-the-badge">
   <img alt="Plataforma" src="https://img.shields.io/badge/jogo-Windows-101B35?style=for-the-badge">
   <img alt="Servidor" src="https://img.shields.io/badge/servidor-Windows%20%7C%20Linux-101B35?style=for-the-badge">
-  <img alt="Natives" src="https://img.shields.io/badge/natives-549-8DB4FF?style=for-the-badge">
-  <img alt="Testes" src="https://img.shields.io/badge/testes-435%20passando-5AD28C?style=for-the-badge">
+  <img alt="Natives" src="https://img.shields.io/badge/natives-571-8DB4FF?style=for-the-badge">
+  <img alt="Testes" src="https://img.shields.io/badge/testes-461%20passando-5AD28C?style=for-the-badge">
 </p>
 
 <p align="center">
@@ -17,7 +17,7 @@
 
 <p align="center">
   <a href="https://aemp.pages.dev"><b>🌐 Site e documentação</b></a> &nbsp;·&nbsp;
-  <a href="https://github.com/SavioReis/aemp-downloads/releases"><b>📥 Downloads</b></a> &nbsp;·&nbsp;
+  <a href="https://github.com/SavioReis/AE-MP/releases/latest"><b>📥 Downloads</b></a> &nbsp;·&nbsp;
   <a href="#-como-o-ae-mp-funciona"><b>⚙️ Como funciona</b></a> &nbsp;·&nbsp;
   <a href="#-qualidade-e-testes"><b>🧪 Testes</b></a>
 </p>
@@ -32,7 +32,7 @@ O SA-MP marcou uma geração, mas parou no tempo. Quem tem servidor conhece os l
 
 > **O gamemode em Pawn que você já tem precisa continuar funcionando.**
 
-Foram muitas etapas, uma de cada vez, testando cada parte antes de seguir. Agora o AE:MP está começando a ficar pronto, e o próximo passo é a versão 1.0.
+Foram muitas etapas, uma de cada vez, testando cada parte antes de seguir. Em novembro de 2026 saiu a **versão 1.0.0**, a primeira com número de versão de verdade.
 
 ---
 
@@ -43,7 +43,7 @@ Foram muitas etapas, uma de cada vez, testando cada parte antes de seguir. Agora
 <td width="50%" valign="top">
 
 ### 🔁 Compatível com o SA-MP
-**549 natives** e **75 callbacks** com os mesmos nomes. `a_samp`, `sscanf`, `zcmd` e YSI funcionam, e plugins do SA-MP (`.dll` e `.so`) carregam pela pasta `plugins/`.
+**571 natives** e **76 callbacks** com os mesmos nomes, MySQL no estilo R39 e R41 sem plugin, e as teclas do SA-MP (F, Y, N, H). `a_samp`, `sscanf`, `zcmd` e YSI funcionam, e plugins do SA-MP (`.dll` e `.so`) carregam pela pasta `plugins/`.
 
 </td>
 <td width="50%" valign="top">
@@ -127,10 +127,10 @@ Carros, skins e armas na pasta `mods/`: o jogador baixa **antes de entrar**, com
 
 Cada versão só sai depois de passar por tudo isto:
 
-| Teste | O que confere | Resultado na v33 |
+| Teste | O que confere | Resultado na 1.0.0 |
 |---|---|---|
-| **Suíte automática** | 435 verificações em quase 50 áreas: streaming, veículos, armas e dano, textdraws, objetos, mods, navegador, toda a API do SA-MP, MySQL, Discord, teclas, launcher e instalador | ✅ 435 de 435 |
-| **Suíte com MariaDB** | A mesma suíte com um banco de verdade, para o MySQL embutido | ✅ 435 de 435 |
+| **Suíte automática** | 452 verificações em mais de 50 áreas: streaming, veículos, armas e dano, textdraws, objetos, mods, navegador, toda a API do SA-MP, MySQL, Discord, teclas, logs, launcher e instalador | ✅ 452 de 452 |
+| **Suíte com MariaDB** | A mesma suíte com um banco de verdade, para o MySQL embutido (R39 e R41) | ✅ 461 de 461 |
 | **Memória** | Todos os servidores compilados com AddressSanitizer e UBSan | ✅ 0 erros |
 | **Carga** | 30 rodadas de 60 jogadores entrando e saindo + 50 de uma vez, com um "vigia" conferindo a lista de jogadores | ✅ 168 de 168 |
 | **Pacotes corrompidos** | Fuzz: pacotes aleatórios e malformados não derrubam o servidor | ✅ |
@@ -163,7 +163,8 @@ Servidor de produção com o freeroam e MariaDB, recebendo bots sem parar durant
 | **v30** | **GPS** pelas ruas, **MySQL embutido** e compensação de lag nos tiros |
 | **v31** | **Discord** no perfil do jogador |
 | **v32** | **Teclas livres** escolhidas pelo gamemode |
-| **v33 · nov/2026** | **Instalador próprio**, launcher novo e **fim do ASI Loader** |
+| **v33** | **Instalador próprio**, launcher novo e **fim do ASI Loader** |
+| **1.0.0 · nov/2026** | Primeira versão numerada: **logs organizados** em colunas e com cor, **MySQL R41**, teclas do SA-MP (F, Y, N, H) e gamemodes RP do SA-MP rodando sem adaptação |
 
 A lista completa de cada versão está em [Novidades por versão](https://aemp.pages.dev/#changelog).
 
@@ -183,8 +184,8 @@ A lista completa de cada versão está em [Novidades por versão](https://aemp.p
 
 | | |
 |---|---|
-| **Jogar** | Baixe o **AE-MP-Setup.exe** nas [releases](https://github.com/SavioReis/aemp-downloads/releases), rode e abra pelo atalho **AE:MP**. Precisa do GTA San Andreas 1.0 para PC. |
-| **Servidor** | Baixe o pacote para **Windows** ou **Linux**, mude o `hostname` no `server.cfg` e inicie. Libere a porta **7777 UDP**. |
+| **Jogar** | Baixe o **[AE-MP-Setup.exe](https://github.com/SavioReis/AE-MP/releases/latest/download/AE-MP-Setup.exe)**, rode e abra pelo atalho **AE:MP**. Precisa do GTA San Andreas 1.0 para PC. |
+| **Servidor** | Baixe o pacote para **[Windows](https://github.com/SavioReis/AE-MP/releases/latest/download/AE-MP-servidor-windows.zip)** ou **[Linux](https://github.com/SavioReis/AE-MP/releases/latest/download/AE-MP-servidor-linux.tar.gz)**, mude o `hostname` no `server.cfg` e inicie. Libere a porta **7777 UDP**. |
 | **Documentação** | Guias, todas as natives e callbacks com exemplo: **[aemp.pages.dev](https://aemp.pages.dev)** |
 
 ---
