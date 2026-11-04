@@ -1,0 +1,48 @@
+AE:MP - Andreas Engine Multiplayer
+Copyright (c) 2024-2026 Savio Reis. Todos os direitos reservados.
+==========================================================================
+
+O AE:MP e gratuito para jogar e para criar servidores, mas NAO e codigo
+aberto. O codigo-fonte nao e publicado e continua sendo de Savio Reis.
+
+VOCE PODE
+  - Baixar e usar o AE:MP de graca, para jogar.
+  - Criar e manter servidores com o AE:MP, inclusive com doacoes ou
+    vantagens pagas no seu servidor.
+  - Usar os arquivos .inc da pasta pawno/include para escrever e compilar
+    os seus gamemodes, filterscripts e includes.
+
+O QUE VOCE CRIA E SEU
+  Gamemodes, filterscripts, paginas HTML (pasta web/), mapas e mods que
+  voce fizer continuam sendo seus. O AE:MP nao pede nenhum direito sobre
+  eles.
+
+VOCE NAO PODE
+  - Vender, alugar ou redistribuir os programas do AE:MP (AE-MP.exe,
+    AE-MP-Setup.exe, aemp.dll, aemp-server, aemp-server.exe, aemp-ui e os
+    pacotes de servidor) fora dos downloads oficiais, com ou sem mudancas.
+    Para indicar o AE:MP, use o link oficial.
+  - Fazer engenharia reversa, descompilar, desmontar ou modificar esses
+    programas, exceto onde a lei do seu pais permitir mesmo com esta
+    proibicao.
+  - Burlar o anticheat ou a protecao dos mods baixados do servidor.
+  - Usar o nome "AE:MP" ou "Andreas Engine", ou o logo, num projeto que nao
+    seja o AE:MP, nem dar a entender que o seu projeto e oficial.
+
+SEM GARANTIA
+  O AE:MP e fornecido "como esta", sem garantia de nenhum tipo. O autor nao
+  responde por danos, perda de dados ou qualquer prejuizo pelo uso do
+  programa.
+
+ROCKSTAR GAMES
+  Grand Theft Auto e GTA San Andreas sao marcas da Take-Two Interactive /
+  Rockstar Games. O AE:MP nao e afiliado, aprovado nem patrocinado por elas,
+  e nao distribui nenhum arquivo do jogo: cada jogador usa a propria copia
+  do GTA San Andreas.
+
+PARTES DE TERCEIROS
+  O AE:MP usa bibliotecas de outros autores, cada uma com a sua licenca.
+  Veja o arquivo TERCEIROS.txt. Esta licenca nao muda os direitos que
+  essas licencas dao sobre essas bibliotecas.
+
+Contato e site: https://aemp.pages.dev | https://github.com/SavioReis

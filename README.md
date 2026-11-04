@@ -190,6 +190,14 @@ A lista completa de cada versão está em [Novidades por versão](https://aemp.p
 
 ---
 
+## 📄 Licença
+
+O AE:MP é **gratuito** para jogar e para criar servidores, mas **não é código aberto**: o código-fonte não é publicado. Os gamemodes, páginas, mapas e mods que você criar são seus. Veja os detalhes em [LICENSE](LICENSE) e as bibliotecas de terceiros em [TERCEIROS.txt](TERCEIROS.txt).
+
+GTA San Andreas é marca da Rockstar Games. O AE:MP não é afiliado à Rockstar e não distribui nenhum arquivo do jogo.
+
+---
+
 ## 👤 Autor
 
 Feito por **Sávio Reis**, desde 2024.
